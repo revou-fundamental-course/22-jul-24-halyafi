@@ -27,12 +27,19 @@
                 <h1>your trusted travel agent</h1>
             </header>
             <p>your happiness is our happiness.</p>
+           
         </article>
 
         <section class="main-content">
             <article class="main-content-item">
-                <div class="main-content-banner"></div>
-
+               <div class="main-banner-container">
+                    <div class="main-content-banner banner-1">
+                    </div>
+                    <div class="main-content-banner banner-2">
+                    </div>
+                    <div class="main-content-banner banner-3">
+                    </div>
+               </div>
                 <div class="main-item">
                     <div class="item-icon"></div>
 
@@ -43,11 +50,14 @@
                 </div>
             </article>
             <form class="main-content-item">
-                <input type="text"/>
-                <button type="button">submit</button>
+                <input type="text" id="input-name" placeholder="name"/>
+                <button type="button" onclick="formValidation();">submit</button>
             </form>
         </section>
     </main>
+
+
+    <script src="js\script.js"></script>
 </body>
 
 
